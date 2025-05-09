@@ -67,7 +67,7 @@ class FactionNoxGUI:
         # Info
         self.subtitle = tk.Label(
             root,
-            text="Lance la surveillance pour détecter et répondre automatiquement aux quiz Minecraft.",
+            text="Lance la surveillance pour détecter et répondre automatiquement aux quiz Minecraft test.",
             font=subtitle_font,
             bg="#0e0e11",
             fg="#cccccc",
