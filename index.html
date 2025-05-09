@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Faction Nox - Le launcher intelligent qui détecte et répond automatiquement à Minecraft.">
+  <title>Faction Nox</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .logo {
+      font-size: 2.5em;
+      color: #00ffe1;
+      font-weight: bold;
+    }
+    .main-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px 60px;
+      text-align: center;
+    }
+    .main-section h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+    .main-section p {
+      font-size: 1.2em;
+      max-width: 700px;
+      color: #c0c0c0;
+    }
+    .btn-download {
+      margin-top: 40px;
+      background-color: #00ffe1;
+      color: #121212;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-download:hover {
+      background-color: #00ccb3;
+    }
+    .features {
+      background-color: #1e1e1e;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .features h2 {
+      color: #00ffe1;
+      font-size: 2.8em;
+      margin-bottom: 40px;
+    }
+    .feature-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    .feature {
+      background-color: #2c2c2c;
+      padding: 30px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .feature:hover {
+      transform: translateY(-10px);
+    }
+    .feature h3 {
+      color: #00ffe1;
+      margin-bottom: 15px;
+      font-size: 1.6em;
+    }
+    .feature p {
+      color: #ccc;
+      font-size: 1em;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #1a1a1a;
+      font-size: 0.95em;
+      color: #888;
+    }
+    footer a {
+      color: #00ffe1;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .main-section h1 { font-size: 2em; }
+      .feature-list { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Faction Nox</div>
+  </header>
+
+  <section class="main-section">
+    <h1>Le launcher intelligent pour Minecraft</h1>
+    <p>
+      Faction Nox est un launcher autonome qui détecte les quiz dans Minecraft (calculs, questions), calcule ou sélectionne la bonne réponse, et la copie directement dans votre presse-papier.
+      <br><br>
+      Un seul fichier .exe à partager à vos amis, toujours à jour automatiquement.
+    </p>
+    <a href="https://www.dropbox.com/scl/fi/ilwf0hh7sjijy9bivwt3s/faction_launcher.exe?rlkey=bbzjegaay77xvq48xviucnzh8&st=tae7zb0c&dl=1" class="btn-download">Télécharger Faction Nox</a>
+  </section>
+
+  <section class="features">
+    <h2>Fonctionnalités clés</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>Mise à jour automatique</h3>
+        <p>Le script est toujours téléchargé depuis GitHub. Pas besoin de recompiler ou réinstaller.</p>
+      </div>
+      <div class="feature">
+        <h3>Interface premium</h3>
+        <p>Un GUI élégant avec boutons Start/Stop, messages animés et design moderne.</p>
+      </div>
+      <div class="feature">
+        <h3>Réponse instantanée</h3>
+        <p>Le logiciel lit le chat Minecraft et copie directement la bonne réponse dans votre presse-papier.</p>
+      </div>
+      <div class="feature">
+        <h3>Compatible Lunar Client</h3>
+        <p>Fonctionne avec le fichier <code>latest.log</code> de Lunar Client. Aucun plugin ni mod requis.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Faction Nox | Créé par <a href="https://www.instagram.com/nathael.dev" target="_blank">Nayzox</a>
+  </footer>
+</body>
+</html>
